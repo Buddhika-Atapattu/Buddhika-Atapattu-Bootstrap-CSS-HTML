@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* navigation bar */
+
+.navbar{
+    margin-bottom: 5%;
+}
+
+.nav-item{
+    padding: 0px 18px;
+}
+
+.nav-link{
+    color: #fff !important;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* title section */
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.text-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    /* font-family: Montserrat-Black; */
+    line-height: 1.5;
+}
+
+.main-container{
+    padding: 5% 10%;
+}
+
+
+
+.font-ubuntu{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.iphone-mockup{
+    width: 25%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+}
+
+/* features section */
+
+#features{
+    position: relative;
+    z-index: 1;
+    padding: 7% 15%;
+    background-color: #fff;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-box h3{
+    font-weight: bolder;
+}
+
+.feature-box p{
+    color: #8f8f8f;
+}
+
+.feature-box i{
+    color: #ef8172;
+    margin-bottom: 2.5rem;
+}
+
+.feature-box i:hover{
+    color: #ff4c68;
+}
+
+
+/* testimonials section */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+#testimonials h2{
+    font-weight: bolder;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#testimonials img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#testimonials #carouselExampleControls .carousel-inner .carousel-item{
+    padding: 7% 15%;
+}
+
+/* press */
+
+#press{
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+#press img{
+    width: 15%;
+    padding: 20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing .container{
+    padding: 7% 15%;
+}
+
+.card-header h3{
+    font-weight: bolder;
+}
+
+/* cta */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+#cta h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 2.5rem;
+}
+
+/* footer section */
+
+#footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#footer i{
+    margin: 0px 10px;
+    font-size: 1.5rem;
+}
+
+#footer p{
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+/* screen viewports */
+
+@media (max-width: 992px) {
+    #title{
+        text-align: center;
+    }
+
+    .main-container {
+        padding: 5% 5%;
+    }
+
+    .navbar-brand{
+        font-size: 4rem !important;
+    }
+
+    .navbar-toggler{
+        border: 2px solid #fff;
+    }
+
+    .navbar-toggler-icon{
+        font-size: 2rem;
+        color: #fff !important;
+    }
+
+    .nav-link{
+        font-size: 2rem;
+    }
+
+    .text-heading{
+        font-size: 6rem;
+    }
+
+    .download{
+        font-size: 2rem;
+    }
+
+    #features {
+        padding: 7% 2%;
+    }
+
+    .feature-box i{
+        font-size: 6rem;
+    }
+
+    .feature-box h3 {
+        font-size: 3rem;
+    }
+
+    .feature-box p {
+        font-size: 2rem;
+    }
+
+    #pricing .container {
+        padding: 7% 8%;
+    }
+
+    .a-plan{
+        font-size: 3rem;
+    }
+
+    .a-plan-paragraph{
+        font-size: 1.5rem;
+    }
+
+    .card-header h3{
+        font-size: 2.5rem;
+    }
+
+    .card-body h2{
+        font-size: 3rem;
+    }
+
+    .card-body p{
+        font-size: 1.5rem;
+    }
+
+    .card-footer button{
+        font-size: 2rem;
+    } 
+
+    #testimonials img{
+        width: 25%;
+    }
+
+    #testimonials em{
+        font-size: 1.5rem;
+    }
+
+    .iphone-mockup{
+        position: static;
+        transform: rotate(0);
+        width: 35%;
+    }
+
+    #footer i{
+        font-size: 2.5rem;
+    }
+    
+    #footer p{
+        font-size: 2rem;
+    }
+}
